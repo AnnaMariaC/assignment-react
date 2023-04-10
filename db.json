@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "email": "ana@yahoo.com",
+      "password": "$2a$10$GNyDHZEt.tWwjmLT3l0I6u69vCvMnazJwbI5Qowp0lLP2OEKi6D0q",
+      "fullName": "Ana Conea",
+      "id": 1
+    }
+  ]
+}

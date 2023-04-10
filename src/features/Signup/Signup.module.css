@@ -1,0 +1,22 @@
+.container-div {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0% 20%;
+  gap: 0.4rem 0.4rem;
+}
+.container-div input:where([type="text"], [type="email"], [type="password"]) {
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--seconary-color);
+  border-radius: 3px;
+}
+.container-div
+  input:where([type="text"], [type="email"], [type="password"]):focus {
+  outline: 2px solid var(--seconary-color-drak);
+}
+.container-div a {
+  text-decoration: none;
+  color: var(--primary-color-dark);
+}

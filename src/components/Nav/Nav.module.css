@@ -1,0 +1,16 @@
+.main-meniu menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0.5rem;
+  gap: 1rem;
+  background-color: var(--primary-color);
+}
+.main-meniu menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.move-rigth {
+  margin-left: auto;
+}
